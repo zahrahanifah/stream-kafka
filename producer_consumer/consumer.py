@@ -32,7 +32,7 @@ def main(topic):
         # load to postgres
         df = pd.DataFrame([{'text': data, 'recorded_at': datetime.now()}])
 
-        df.to_csv('output_chelsea.csv', index=False, mode='a')
+        df.to_csv('output_lay_off.csv', index=False, mode='a')
 
         # __load_to_postgres(df, 'twitter_topic')
 

@@ -1,4 +1,4 @@
-## Tweet Streaming - Let's get tweets of current trending topics in Indonesia
+## Tweet Streaming - Let's get 'Lay off' tweets 
 On this repo, we would like to stream tweets which contain a key-words that we would like to stream and extract the data. If you like to clone this repo and try to stream the tweets in your local PC, please make sure that you have or installed the requirement.
 
 ### Requirement as follows (A - C):

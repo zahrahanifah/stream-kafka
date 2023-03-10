@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-
 # consumer_key    = str(os.getenv('CONSUMER_KEY'))
 # consumer_secret = str(os.getenv('CONSUMER_SECRET'))
 # access_token    = str(os.getenv('ACCESS_TOKEN'))
@@ -46,7 +45,7 @@ if __name__ == "__main__":
     # list_rules = twtr_stream.get_rules()
     # print(list_rules.data)
     # twtr_stream.delete_rules(list_rules.data)
-    rule = StreamRule(value="chelsea")
+    rule = StreamRule(value="Lay off")
     twtr_stream.add_rules(rule)
     twtr_stream.filter()
 
